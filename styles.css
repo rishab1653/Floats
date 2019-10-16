@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;    /* Medium blue */
+  }
+  
+  .sidebar {
+    height: 300px;
+    background-color: #F09A9D;    /* Red */
+  }
+  
+  .content {
+    height: 500px;
+    background-color: #F5CF8E;    /* Yellow */
+  }
+  
+  .footer {
+    height: 200px;
+    background-color: #D6E9FE;    /* Light blue */
+  }
+
+  .sidebar {
+    width: 200px;                 /* Add this */
+    height: 300px;
+    background-color: #F09A9D;
+  }
+
+  .sidebar {
+    float: left;                  /* Add this */
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+  }
+  .page {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  explicit width to our .content block:
+
+.content {
+  width: 650px;                 /* Add this */
+  height: 500px;
+  background-color: #F5CF8E;
+}
+
+.content {
+    float: left;                  /* Add this */
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E;
+  }
+
+  .content {
+    float: left;                  /* Add this */
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E;
+  }
+  .page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;  /* Add this */
+  }
+
+  .footer {
+    clear: both;            /* Add this */
+    height: 200px;
+    background-color: #D6E9FE;
+  }
+  .page {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;             /* Add this */
+    background-color: #EAEDF0;    /* Add this */
+  }
+
+  .page {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: #EAEDF0;
+  }
